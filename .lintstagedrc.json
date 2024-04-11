@@ -1,5 +1,6 @@
 {
   "./src/**/*": [
-    "eslint --fix"
+    "eslint --fix",
+    "npm test --findRelatedTests --bail --passWithNoTests"
   ]
 }
